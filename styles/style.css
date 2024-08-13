@@ -1,0 +1,25 @@
+body{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.lato-font{
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+header{
+    background-color: rgb(247, 224, 228);
+    max-width: 100%;
+}
+.featured-container{
+    max-width: 100%;
+    background-color: rgb(253, 239, 241);
+}
+footer{
+    max-width: 100%;
+    background-color: black;
+}
