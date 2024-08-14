@@ -11,6 +11,7 @@ body{
     font-style: normal;
 }
 :root{
+    --highlight-color: rgb(218, 74, 122);
     --primary-color: rgba(85, 85, 85, 0.932);
 }
 .title{
@@ -25,6 +26,10 @@ body{
     color: var(--primary-color);
     line-height: 23px;
 }
+span{
+    color: var(--highlight-color);
+}
+
 header{
     background-color: rgba(247, 224, 228, 0.966);
     max-width: 100%;
@@ -32,6 +37,7 @@ header{
 .discount-container{
     max-width: 100%;
     background-color: rgb(253, 239, 241);
+    padding: 0 13px;
 }
 footer{
     max-width: 100%;
@@ -43,7 +49,7 @@ button{
     background-color: rgb(218, 74, 122);
     color: white;
     cursor: pointer;
-    padding: 10px 25px;
+    padding: 10px 26px;
     border-radius: 5px;
     font-weight: 600;
     font-size: 1rem;
@@ -164,3 +170,28 @@ button{
     color: var(--primary-color);
 }
 /* Service section ends here */
+
+/* Discount section starts here */
+.discount-section{
+    max-width: 1440px;
+    margin: 0 auto 80px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 55px 0;
+    align-items: center;
+}
+.discount-contents{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.discount-img{
+    width: fit-content;
+}
+.discount-img > img{
+    width: 280px;
+}
+/* Discount section ends here */
