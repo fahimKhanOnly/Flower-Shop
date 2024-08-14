@@ -7,6 +7,16 @@
         height: 220px;
         padding: 75px 25px 0 25px;
     }
+    .instagram-intro{
+        max-width: 80vw;
+    }
+    .instagram-posts{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .instagram-posts > img{
+        width: 300px;
+    }
 }
 @media screen and (max-width: 850px) {
     .header-container{
@@ -38,6 +48,11 @@
         flex-direction: column-reverse;
     }
 }
+@media screen and (max-width: 650px) {
+    .instagram-posts{
+        grid-template-columns: 1fr;
+    }
+}
 @media screen and (max-width: 450px) {
     .header-contents > h1{
         font-size: 2.4rem;
@@ -65,5 +80,11 @@
     }
     .discount-img > img{
         width: 250px;
+    }
+    .instagram-intro{
+        max-width: 97vw;
+    }
+    .instagram-posts > img{
+        width: 290px;
     }
 }
