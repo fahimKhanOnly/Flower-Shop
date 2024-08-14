@@ -10,9 +10,12 @@ body{
     font-family: "Lato", sans-serif;
     font-style: normal;
 }
+:root{
+    --primary-color: rgba(85, 85, 85, 0.932);
+}
 
 header{
-    background-color: rgb(247, 224, 228);
+    background-color: rgba(247, 224, 228, 0.966);
     max-width: 100%;
 }
 .featured-container{
@@ -23,3 +26,49 @@ footer{
     max-width: 100%;
     background-color: black;
 }
+button{
+    border: none;
+    outline: none;
+    background-color: rgb(218, 74, 122);
+    color: white;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+/* Header section starts here */
+.header-container{
+    max-width: 1440px;
+    padding: 0 13px;
+    margin: 0 auto 80px auto;
+    display: flex;
+    padding-bottom: 30px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-contents{
+    max-width: 650px;
+}
+.header-contents > h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.header-contents > p{
+    font-size: 1rem;
+    font-weight: 500px;
+    color: var(--primary-color);
+    margin: 23px 0;
+}
+.header-bg{
+    min-width: 440px;
+    height: 650px;
+    background: url(../assets/pngwing10.png);
+    background-repeat: no-repeat;
+    background-size: 470px;
+    background-position: bottom;
+}
+/* Header section ends here */
