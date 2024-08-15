@@ -257,6 +257,7 @@ button{
     border: none;
     outline: none;
     height: 50px;
+    font-size: 1.2rem;
 }
 .submit-btn{
     background-color: palevioletred;
