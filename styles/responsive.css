@@ -47,10 +47,38 @@
     .discount-section{
         flex-direction: column-reverse;
     }
+    .subscribe-intro{
+        max-width: 95%;
+    }
+    .subscribe-container{
+        height: 500px
+    }
+    .subscribe-section{
+        padding: 50px 12px;
+    }
+    .subscribe-section > form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .email-field{
+        width: 480px;
+        height: 40px;
+    }
+    .submit-btn{
+        width: 500px;
+        height: 40px;
+    }
+    
 }
 @media screen and (max-width: 650px) {
     .instagram-posts{
         grid-template-columns: 1fr;
+    }
+    .email-field{
+        width: 380px;
+    }
+    .submit-btn{
+        width: 400px;
     }
 }
 @media screen and (max-width: 450px) {
@@ -66,7 +94,7 @@
         max-width: 98vw;
     }
     .title{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .featured-flower > img{
         width: 230px;
@@ -86,5 +114,15 @@
     }
     .instagram-posts > img{
         width: 290px;
+    }
+    .subscribe-intro{
+        width: 100%;
+    }
+
+    .email-field{
+        width: 260px;
+    }
+    .submit-btn{
+        width: 280px;
     }
 }
