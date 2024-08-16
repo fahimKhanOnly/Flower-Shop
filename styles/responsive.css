@@ -132,3 +132,13 @@
         font-size: 1.7rem;
     }
 }
+
+
+@media screen and (min-width: 1024px) {
+    button, input[type=submit]{
+        transition: all 0.3s;
+    }
+    button:hover, input[type=submit]:hover{
+        background-color: rgb(209, 1, 1);
+    }
+}
